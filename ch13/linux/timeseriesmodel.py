@@ -6,10 +6,9 @@
 # revision history 1.0 - initial file
 # ----------------------------------------
 # Import necessary libraries
-import pandas as pd
-import numpy as np
 from sklearn.metrics import mean_squared_error, r2_score
 import pickle
+import os
 
 def retrain_model(model,X_train, y_train):
     #load the model from pickle file, retrain the model and save to pickle
@@ -17,7 +16,10 @@ def retrain_model(model,X_train, y_train):
         loaded_model_pickle = pickle.load(file)
     loaded_model_pickle.fit(X_train, y_train)
 
-    with open(model +'_retrain', 'wb') as file:
+    base_name, extension = os.path.splitext(model)
+    new_file_path = f"{base_name}_retrained{extension}"
+
+    with open(new_file_path, 'wb') as file:
         pickle.dump(loaded_model_pickle, file)
     
 
@@ -40,9 +42,3 @@ def evalmodel(model, X_test, y_test):
     EvalMetrics.mse = mean_squared_error(y_test, y_pred)
     EvalMetrics.r_squared = r2_score(y_test, y_pred)
     return EvalMetrics
-
-
-p = EvalMetrics
-evalmodel(model,p,X_test, y_test, y_pred)
-print(f'Mean Squared Error: {p.mse}')
-print(f'R squared: {p.r_squared}')
