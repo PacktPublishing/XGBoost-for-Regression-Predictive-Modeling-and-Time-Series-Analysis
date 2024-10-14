@@ -258,4 +258,3 @@ dependencies:
       - tifffile==2024.8.30
       - tqdm==4.66.5
       - xgboost==1.7.3
-prefix: C:\Users\joyce\anaconda3\envs\xgboost_book_eli5
