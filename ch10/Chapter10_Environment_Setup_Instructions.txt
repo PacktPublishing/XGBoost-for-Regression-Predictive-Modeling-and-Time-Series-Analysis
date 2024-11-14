@@ -13,12 +13,12 @@ This guide provides step-by-step instructions for setting up the Python environm
 #### Step 1: Install Mambaforge
 
 1. Download the installer:
-   - [Mambaforge-24.9.0-0-Windows-x86_64.exe](link_to_the_exe)
+   - [Mambaforge-24.9.0-0-Windows-x86_64.exe] (attached in this giothub repp already)
 2. Run the `.exe` file as an administrator to install Mambaforge.
 
 #### Step 2: Create the Python Environment
 
-1. Open a terminal (or Anaconda prompt if available).
+1. Open the miniforge terminal
 2. Run the following commands to create and activate the environment:
 
    ```bash
