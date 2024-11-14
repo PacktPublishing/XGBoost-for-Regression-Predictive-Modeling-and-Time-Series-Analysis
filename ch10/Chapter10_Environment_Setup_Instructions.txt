@@ -13,7 +13,7 @@ This guide provides step-by-step instructions for setting up the Python environm
 #### Step 1: Install Mambaforge
 
 1. Download the installer:
-   - [Mambaforge-24.9.0-0-Windows-x86_64.exe] (attached in this giothub repp already)
+   - [Mambaforge-24.9.0-0-Windows-x86_64.exe] (attached in this github repo already)
 2. Run the `.exe` file as an administrator to install Mambaforge.
 
 #### Step 2: Create the Python Environment
@@ -40,4 +40,4 @@ This guide provides step-by-step instructions for setting up the Python environm
 
 ---
 
-After following these instructions, verify that the environment works as expected. Once confirmed, this `.yaml` file will be added to the repository for future use.
+After following these instructions, verify that the environment works as expected.
