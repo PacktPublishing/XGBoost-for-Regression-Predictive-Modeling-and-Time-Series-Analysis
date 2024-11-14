@@ -1,0 +1,43 @@
+
+# Environment Setup Instructions for Chapter 10
+
+This guide provides step-by-step instructions for setting up the Python environment required to run the Chapter 10 code on model interpretability, including the use of `xgboost`, `sklearn`, `lime`, `shap`, `eli5`, `numpy`, and other dependencies.
+
+## Requirements
+
+1. **Mambaforge**: This setup uses Mambaforge, which includes a base Python environment.
+2. **.yaml file**: The `model_interpretability_env.yaml` file specifies the required dependencies and their versions to avoid compatibility issues.
+
+### Instructions
+
+#### Step 1: Install Mambaforge
+
+1. Download the installer:
+   - [Mambaforge-24.9.0-0-Windows-x86_64.exe](link_to_the_exe)
+2. Run the `.exe` file as an administrator to install Mambaforge.
+
+#### Step 2: Create the Python Environment
+
+1. Open a terminal (or Anaconda prompt if available).
+2. Run the following commands to create and activate the environment:
+
+   ```bash
+   conda env create -f model_interpretability_env.yaml
+   conda activate xgboost_book_model_interpretability
+   ```
+
+   - Ensure that the `model_interpretability_env.yaml` file is in the current directory.
+
+#### Step 3: Launch Jupyter Lab
+
+1. Once the environment is active, you can launch Jupyter Lab by running:
+
+   ```bash
+   jupyter lab
+   ```
+
+2. Open the Chapter 10 notebook and ensure that all dependencies load correctly.
+
+---
+
+After following these instructions, verify that the environment works as expected. Once confirmed, this `.yaml` file will be added to the repository for future use.
