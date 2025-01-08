@@ -1,5 +1,61 @@
-
 # XGBoost for Regression Predictive Modeling and Time Series Analysis
+
+<a href="https://www.packtpub.com/en-at/product/xgboost-for-regression-predictive-modeling-and-time-series-analysis-9781805123057"><img src="https://content.packt.com/_/image/xxlarge/B19873/cover_image.jpg" alt="XGBoost for Regression Predictive Modeling and Time Series Analysis
+" height="256px" align="right"></a>
+
+This is the code repository for [XGBoost for Regression Predictive Modeling and Time Series Analysis](https://www.packtpub.com/en-at/product/xgboost-for-regression-predictive-modeling-and-time-series-analysis-9781805123057), published by Packt.
+
+**Learn how to build, evaluate, and deploy predictive models with expert guidance**
+
+## What is this book about?
+XGBoost offers a powerful solution for regression and time series analysis, enabling you to build accurate and efficient predictive models. In this book, the authors draw on their combined experience of 40+ years in the semiconductor industry to help you harness the full potential of XGBoost, from understanding its core concepts to implementing real-world applications.
+
+This book covers the following exciting features: 
+* Build a strong, intuitive understanding of the XGBoost algorithm and its benefits
+* Implement XGBoost using the Python API for practical applications
+* Evaluate model performance using appropriate metrics
+* Deploy XGBoost models into production environments
+* Handle complex datasets and extract valuable insights
+* Gain practical experience in feature engineering, feature selection, and categorical encoding
+
+If you feel this book is for you, get your [copy](https://www.amazon.in/XGBoost-Regression-Predictive-Modeling-Analysis-ebook/dp/B0C9HX2QML) today!
+
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="https://www.packtpub.com/" border="5" /></a>
+
+## Instructions and Navigations
+All of the code is organized into folders.
+
+The code will look like the following:
+```
+<Any code block from the book>
+
+```
+
+**Following is what you need for this book:**
+This book is for data scientists, machine learning practitioners, analysts, and professionals interested in predictive modeling and time series analysis. Basic coding knowledge and familiarity with Python, GitHub, and other DevOps tools are required.
+
+With the following software and hardware list you can run all code files present in the book (Chapter 1-13).
+
+### Software and Hardware List
+
+| Chapter  | Software required                                                                    | OS required                        |
+| -------- | -------------------------------------------------------------------------------------| -----------------------------------|
+|  		   |   							                                            			  | Windows, Mac OS X, and Linux (Any) |
+|          |   																					  |                                    |
+
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](<Graphic bundle link>).
+
+
+### Related products <Other books you may enjoy>
+* <Book name #1 from backmatter> [[Packt]](<Book link on Packtpub>) [[Amazon]](https://www.amazon.com/dp/<10P-ISBN>)
+
+* <Book name #2 from backmatter> [[Packt]](<Book link on Packtpub>) [[Amazon]](https://www.amazon.com/dp/<10P-ISBN>)
+
+## Get to Know the Authors
+**Partha Pritam Deka** is a data science leader with 15+ years of experience in semiconductor supply chain and manufacturing. As a senior staff engineer at Intel, he has led AI and machine learning teams, achieving significant cost savings and optimizations. He and his team developed a computer vision system that improved Intel’s logistics, earning CSCMP Innovation Award finalist recognition. An active AI community member, Partha is a senior IEEE member and speaker at Intel’s AI Everywhere conference. He also reviews for NeurIPS, contributing to AI and analytics in semiconductor manufacturing.
+
+**Joyce Weiner** is a principal engineer with Intel Corporation. She has over 25 years of experience in the semiconductor industry, having worked in fabrication, assembly and testing, and design. Since the early 2000s, she has deployed applications that use machine learning. Joyce is a black belt in Lean Six Sigma and her area of technical expertise is the application of data science to improve efficiency. She has a BS in Physics from Rensselaer Polytechnic Institute and an MS in Optical Sciences from the University of Arizona.
+
 
 Welcome to the **XGBoost for Regression Predictive Modeling and Time Series Analysis** repository. This repository contains practical code examples, data, and resources to accompany the book on utilizing XGBoost for regression and time series forecasting tasks. The book explores foundational to advanced techniques, providing readers with tools to understand, develop, and deploy XGBoost models effectively.
 
