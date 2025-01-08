@@ -27,8 +27,10 @@ All of the code is organized into folders.
 
 The code will look like the following:
 ```
-<Any code block from the book>
-
+import seaborn as sns
+sns.displot( irisdata, x="Species",
+   discrete = True, hue="Species", 
+   shrink =0.8, palette="Greys" )
 ```
 
 **Following is what you need for this book:**
@@ -40,16 +42,14 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                                                                    | OS required                        |
 | -------- | -------------------------------------------------------------------------------------| -----------------------------------|
-|  		   |   							                                            			  | Windows, Mac OS X, and Linux (Any) |
-|          |   																					  |                                    |
-
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](<Graphic bundle link>).
+|  	1-13	   |   			Python 3.8+  Jupyter Notebook| Windows, Mac OS X, and Linux (Any) |
+|       1-13| Jupyter Notebook| Windows, Mac OS X, and Linux (Any) |
 
 
 ### Related products <Other books you may enjoy>
-* <Book name #1 from backmatter> [[Packt]](<Book link on Packtpub>) [[Amazon]](https://www.amazon.com/dp/<10P-ISBN>)
+* Generative AI Foundations in Python [[Packt]](https://www.packtpub.com/en-dk/product/generative-ai-foundations-in-python-9781835460825) [[Amazon]](https://www.amazon.com/dp/1835460828)
 
-* <Book name #2 from backmatter> [[Packt]](<Book link on Packtpub>) [[Amazon]](https://www.amazon.com/dp/<10P-ISBN>)
+* <Book name #2 from backmatter> [[Packt]](https://www.packtpub.com/en-cz/product/matlab-for-machine-learning-9781835087695) [[Amazon]](https://www.amazon.com/MATLAB-Machine-Learning-learning-enhanced/dp/1835087698)
 
 ## Get to Know the Authors
 **Partha Pritam Deka** is a data science leader with 15+ years of experience in semiconductor supply chain and manufacturing. As a senior staff engineer at Intel, he has led AI and machine learning teams, achieving significant cost savings and optimizations. He and his team developed a computer vision system that improved Intel’s logistics, earning CSCMP Innovation Award finalist recognition. An active AI community member, Partha is a senior IEEE member and speaker at Intel’s AI Everywhere conference. He also reviews for NeurIPS, contributing to AI and analytics in semiconductor manufacturing.
