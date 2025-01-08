@@ -49,7 +49,7 @@ With the following software and hardware list you can run all code files present
 ### Related products <Other books you may enjoy>
 * Generative AI Foundations in Python [[Packt]](https://www.packtpub.com/en-dk/product/generative-ai-foundations-in-python-9781835460825) [[Amazon]](https://www.amazon.com/dp/1835460828)
 
-* <Book name #2 from backmatter> [[Packt]](https://www.packtpub.com/en-cz/product/matlab-for-machine-learning-9781835087695) [[Amazon]](https://www.amazon.com/MATLAB-Machine-Learning-learning-enhanced/dp/1835087698)
+* MATLAB for Machine Learning - Second Edition [[Packt]](https://www.packtpub.com/en-cz/product/matlab-for-machine-learning-9781835087695) [[Amazon]](https://www.amazon.com/MATLAB-Machine-Learning-learning-enhanced/dp/1835087698)
 
 ## Get to Know the Authors
 **Partha Pritam Deka** is a data science leader with 15+ years of experience in semiconductor supply chain and manufacturing. As a senior staff engineer at Intel, he has led AI and machine learning teams, achieving significant cost savings and optimizations. He and his team developed a computer vision system that improved Intel’s logistics, earning CSCMP Innovation Award finalist recognition. An active AI community member, Partha is a senior IEEE member and speaker at Intel’s AI Everywhere conference. He also reviews for NeurIPS, contributing to AI and analytics in semiconductor manufacturing.
